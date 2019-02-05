@@ -3,13 +3,17 @@ dht11 DHT11;
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(7,2,13,12,11,10); 
 
-#define DHT11PIN 6 // sensor de humedad
-#define pumpPin 3  //bomba de agua
-#define  gled  5            // LED verde
-#define bled 4           // blue LED 
+#define DHT11PIN 6        // sensor de humedad 
+#define pumpPin 3         //bomba de agua
+#define  gled  5          // LED verde
+#define bled 4            // blue LED 
 #define thermistorPin  A0 //Termistor
-#define lightsense 9 //fotosensor
+#define lightsense 9      //fotosensor
+
+
+
 /*y aqui iria el sensor de ph y humedad de la tierra...
+  and here is where the ph and soil humidity sensors would go...
 https://i.ytimg.com/vi/BE6ogFlKp6A/hqdefault.jpg */
 
 
